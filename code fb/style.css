@@ -1,0 +1,637 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+/* 421 lines */
+/* 296* lines*/
+/*Start main rulez*/
+
+.container{width: 900px;margin: auto}
+.clear-fix{clear: both}
+/*End main rulez*/
+
+/*Start Header*/
+.header .slider{
+    background-color: #EEE;
+    background-image: url(http://journeytoegypt.com/wp-content/uploads/2016/04/The-Egyptian-Pyramids-at-Giza2.jpg);
+    background-size: cover; /* Css3 */
+    height: 400px;   
+}
+.header .slider .intro {
+    height: 400px;  
+    text-align: center;
+    padding-top: 170px;
+    color: #fff;
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 3px solid #fff; 
+    border-bottom: 3px solid #fff;
+    padding: 5px 0;
+    color: #fff
+}
+.header .slider .intro button{
+    width: 200px;
+    background: none;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px
+}
+.header .navbar{
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar h2{color: #fff}
+.header .navbar h2 span{color: #2ecc71; }
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float: right
+}
+.header .navbar ul li{float: left;padding: 10px}
+.header .navbar ul li a{color: #fff;text-decoration: none}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color: #30B576}
+/*End Header*/
+
+/*Start Feature*/
+
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px
+}
+.features .feat{width: 33.33333%;height: 150px}
+.features .feat p{padding-right: 20px}
+/*End Feature*/
+
+/*Start about me*/
+
+.aboutme {background-color: #F2F2F2;overflow: hidden}
+
+.aboutme .image {width: 40%}
+
+.aboutme .image img {width:100%;height: 520px}
+
+.aboutme .info {width:60%;}
+
+.aboutme .info h2 {margin: 30px 0 20px 40px}
+
+.aboutme .info >p {margin: 0 0 10px 40px;}
+
+.aboutme .info >p:last-of-type {margin: 30px 0 10px 40px;}
+
+.aboutme .info .hoppies {overflow:hidden; margin: 12px 0 0 40px;}
+
+.aboutme .info .hoppies .content {width: 50%;overflow: hidden}
+
+.aboutme .info .hoppies .content .icon {width:12%;margin-right: 5%}
+
+.aboutme .info .hoppies .content .icon img {max-width: 100%;margin: 20px 10px 0 0;}
+
+.aboutme .info .hoppies .content .text {width: 83%;}
+
+.aboutme .info .hoppies .content .text h3 {margin-bottom: 5px}
+
+.aboutme .info .hoppies .content .text p {margin-top: 0}
+
+/*End about me*/
+
+/*Start My Skills*/
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.my-skills .skills,
+.my-skills.progress{width: 50%}
+.my-skills .skills h2{margin: 25px 0 20px 40px}
+.my-skills .skills p{margin: 0 0 10px 40px}
+.my-skills .skills p:last-of-type{margin-top: 25px;}
+.my-skills .skills button{margin-top: 20px;margin-left: 40px}
+.my-skills .progress .technique{margin-left:50px}
+.my-skills .progress .technique div{
+    background-color: #f2f2f2;
+    height: 25px;
+    width: 400px
+}
+.my-skills .progress .technique div span{
+    background-color: #2Dcc70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+/*End My Skills*/
+
+/*Start Resume*/
+
+.resume{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.resume h2{text-transform:uppercase;font-weight: bold}
+
+.resume p{padding: 0 60px}
+
+.resume button{margin-top: 20px;}
+
+/*End Resume*/
+
+/*Start Education*/
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education hr{
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0}
+.my-education .main{width: 50%;margin-right: 5%}
+.my-education .main h2{margin: 25px 0 20px 40px}
+.my-education .main p{margin: 0 0 10px 40px}
+.my-education .main p:last-of-type{margin-top: 25px;}
+.my-education .exp{width: 45%;}
+.my-education .exp h3{margin-top: 80px;margin-bottom: 10px}
+.my-education .exp span{display: block;margin-bottom: 10px}
+.my-education .exp span:first-of-type{color: #999}
+.my-education .exp span:last-of-type{
+    background-color: #2Dcc70;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 10px
+}
+/*End My Education*/
+
+/*Start Testimonials*/
+.testimonials{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonials q{color: #888;font: italic bold 18px/1.8 Arial,Tahoma}
+.testimonials h3{margin-bottom: 40px}
+.testimonials ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.testimonials ul li{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #2Dcc70; 
+    display: inline-block;
+    cursor: pointer;
+}
+.testimonials ul li.active,
+.testimonials ul li:hover{background-color:#2Dcc70}
+/*End Testimonials*/
+
+/*Start portfolio*/
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    overflow: hidden;
+}
+.portfolio p{margin-bottom: 30px}
+.potfolio .our-work{overflow: hidden;}
+.portfolio .our-work>div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+}
+.portfolio .our-work>div img{
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #cccc;
+    
+}
+/*End portfolio*/
+
+/*Start Contact Me*/
+.contact{
+    background-color: #252f31;
+    color: White;
+    overflow: hidden; 
+    padding-top: 50px;
+    padding-bottom: 70px
+}
+.contact .info{width: 50%;margin-right: 5%}
+.contact h2{color: #FFF;margin-left: 40px}
+.contact p{margin-left: 40px;color:#6A6E71}
+.contact p strong{color:#D1D6DA}
+
+.contact .form{width: 45%;}
+.contact .form label{
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0;
+}
+.contact .form input[type="text"]{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px
+}
+.contact .form textarea{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 250px;
+}
+.contact .form input[type="submit"]{
+    background-color: #191E22;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px
+}
+/*End Contact Me*/
+
+/*Start Footer*/
+.footer{
+    background-color: #191E22;
+    color: #3A6E71;
+    padding: 20px 0;
+    text-align: center
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+.footer ul li{display: inline-block;}
+.footer ul li img{width: 24px}
+/*End Footer*/
+
+/*Start my Framework*/
+
+.my-button{
+    background: none;
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold
+}
+.fl-left{float: left} /* Floating left */
+p{line-height: 1.7;color: #888}
+h2,h3{color:dimgrey}
+/*End my Framework*/
